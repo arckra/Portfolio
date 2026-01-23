@@ -1,684 +1,706 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
-
-  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
-  <link rel="stylesheet" href="./assets/css/style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portofolio</title>
+    <link rel="shortcut icon" href="/image/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-
 <body>
-  <!--- #MAI-->
-  <main>
-    <!-- #SIDEBAR-->
-    <aside class="sidebar" data-sidebar>
-      <div class="sidebar-info">
-        <figure class="avatar-box">
-          <img src="./assets/images/Anime.jpg" alt="Ari Cakra Kurniawan" width="80">
-        </figure>
-        <div class="info-content">
-          <h1 class="name" title="Ari Cakra Kurniawan">Ari Cakra Kurniawan</h1>
-          <p class="title">Students of Pelita Bangsa University</p>
-        </div>
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
-      </div>
-
-      <div class="sidebar-info_more">
-        <div class="separator"></div>
-        <ul class="contacts-list">
-          <li class="contact-item">
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">&lt;/&gt; Portofolio</span>
             </div>
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
-              <a href="mailto:aricakra06@gmail.com" class="contact-link">aricakra06@gmail.com</a>
-            </div>
-          </li>
-          <li class="contact-item">
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
-            <div class="contact-info">
-              <p class="contact-title">Phone</p>
-              <a href="https://wa.me/6282121463232" title="no hp" class="contact-link">+62 82121463232</a>
-            </div>
-          </li>
-          <li class="contact-item">
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-              <address>Bekasi, Indonesia</address>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </aside>
-    <div class="main-content">
-
-      <nav class="navbar">
-        <ul class="navbar-list">
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
-          </li>
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
-          </li>
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
-          </li>
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Blog</button>
-          </li>
-          <a href="#" class="kontak-btn">Contact Us</a>
-        </ul>
-      </nav>
-
-      <article class="about  active" data-page="about">
-        <header>
-          <h2 class="h2 article-title">About me</h2>
-        </header>
-        <section class="about-text">
-          <p>
-            Hello. My name is Ari Cakra Kurniawan, you can call me ari. 
-            I am fresh graduate from SMK Negeri 1 South Cikarang majoring in computer and network engineering.
-            I want to work in the field of computers and networks, and i am also good at python programming language.
-          </p>
-        </section>
-
-
-        <section class="service">
-          <h3 class="h3 service-title">What i'm doing</h3>
-          <ul class="service-list">
-            <li class="service-item">
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg
-                " alt="design icon" width="40">
-              </div>
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Fresh Graduate</h4>
-                <p class="service-item-text">
-                  I'm a fresh graduate from SMK Negeri 1 South Cikarang. Hello everyone.
-                </p>
-              </div>
-            </li>
-            <li class="service-item">
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
-              </div>
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Studying in University</h4>
-                <p class="service-item-text">
-                  studying at Pelita Bangsa University in the Faculty of Engineering, Informatics Engineering study program.
-                </p>
-              </div>
-            </li>
-            <li class="service-item">
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
-              </div>
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Python Programming</h4>
-                <p class="service-item-text">
-                  Beginner python development.
-                </p>
-              </div>
-            </li>
-            <li class="service-item">
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
-              </div>
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Freelance</h4>
-                <p class="service-item-text">
-                  I make high-quality photos of any category at a professional level.
-                </p>
-              </div>
-            </li>
-          </ul>
-        </section>
-
-        <section class="skill">
-          <h3 class="h3 skills-title">My skills</h3>
-          <ul class="skills-list content-card">
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">python</h5>
-                <data value="80">80%</data>
-              </div>
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
-              </div>
-            </li>
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">PHP</h5>
-                <data value="70">70%</data>
-              </div>
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 70%;"></div>
-              </div>
-            </li>
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">SQL</h5>
-                <data value="10">10%</data>
-              </div>
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 10%;"></div>
-              </div>
-            </li>
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">html & css</h5>
-                <data value="50">50%</data>
-              </div>
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 50%;"></div>
-              </div>
-            </li>
-          </ul>
-        </section>
-
-        <section class="testimonials">
-          <h3 class="h3 testimonials-title">Testimonials</h3>
-          <ul class="testimonials-list has-scrollbar">
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
-                </figure>
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-              </div>
-            </li>
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
-                </figure>
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-              </div>
-            </li>
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
-                </figure>
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-              </div>
-            </li>
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
-                </figure>
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </section>
-        
-
-        <div class="modal-container" data-modal-container>
-          <div class="overlay" data-overlay></div>
-          <section class="testimonials-modal">
-            <button class="modal-close-btn" data-modal-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-            <div class="modal-img-wrapper">
-              <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
-              </figure>
-              <img src="./assets/images/icon-quote.svg" alt="quote icon">
-            </div>
-            <div class="modal-content">
-              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
-              <time datetime="2021-06-14">14 June, 2021</time>
-              <div data-modal-text>
-                <p>
-                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                  lot of experience
-                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                  consectetur adipiscing
-                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                </p>
-              </div>
-            </div>
-          </section>
-        </div>
-        
-      </article>
-
-      <article class="resume" data-page="resume">
-        <header>
-          <h2 class="h2 article-title">Resume</h2>
-        </header>
-        <section class="timeline">
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-            <h3 class="h3">Education</h3>
-          </div>
-
-          <ol class="timeline-list">
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">University of Pelita Bangsa</h4>
-              <span>2024 — 2028</span>
-              <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
-              </p>
-            </li>
-
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">State Vocational School 1 South Cikarang</h4>
-            <span>2021 — 2024</span>
-              <p class="timeline-text">
-                Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est
-                omnis..
-              </p>
-            </li>
-
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">State Junior high school 1 South Cikarang</h4>
-              <span>2019 — 2021</span>
-              <p class="timeline-text">
-                Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur
-                magni dolores
-                eos.
-              </p>
-            </li>
-          </ol>
-        </section>
-
-        <section class="timeline">
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-            <h3 class="h3">Experience</h3>
-          </div>
-          <ol class="timeline-list">
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">Creative director</h4>
-              <span>2015 — Present</span>
-              <p class="timeline-text">
-                Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas
-                molestias
-                exceptur.
-              </p>
-            </li>
-
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">Art director</h4>
-              <span>2013 — 2015</span>
-              <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
-              </p>
-            </li>
-
-            <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">Web designer</h4>
-              <span>2010 — 2013</span>
-              <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
-              </p>
-            </li>
-          </ol>
-        </section>
-      </article>
-
-      <!--- #PORTFOLIO-->
-      <article class="portfolio" data-page="portfolio">
-        <header>
-          <h2 class="h2 article-title">Portfolio</h2>
-        </header>
-        <section class="projects">
-          <ul class="filter-list">
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
-            <li class="filter-item">
-              <button data-filter-btn>Web design</button>
-            </li>
-            <li class="filter-item">
-              <button data-filter-btn>Applications</button>
-            </li>
-            <li class="filter-item">
-              <button data-filter-btn>Web development</button>
-            </li>
-          </ul>
-          <div class="filter-select-box">
-            <button class="filter-select" data-select>
-              <div class="select-value" data-selecct-value>Select category</div>
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-            </button>
-            <ul class="select-list">
-              <li class="select-item">
-                <button data-select-item>All</button>
-              </li>
-              <li class="select-item">
-                <button data-select-item>Web design</button>
-              </li>
-              <li class="select-item">
-                <button data-select-item>Applications</button>
-              </li>
-              <li class="select-item">
-                <button data-select-item>Web development</button>
-              </li>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active">Beranda</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">Tentang</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#resume" class="nav-link">Resume</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#portfolio" class="nav-link">Portofolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials" class="nav-link">Testimoni</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Kontak</a>
+                </li>
             </ul>
-          </div>
-          <ul class="project-list">
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="https://website-resep-jawa-barat.vercel.app">
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-                  <img src="./assets/images/Screenshot 2025-02-04 214059.png" alt="finance" loading="lazy">
-                </figure>
-                <h3 class="project-title">Resep Jawa Barat</h3>
-                <p class="project-category">Web design</p>
-              </a>
-            </li>
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="https://makanan.fwh.is/dashboard">
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
-                </figure>
-                <h3 class="project-title">Harum Bakery</h3>
-                <p class="project-category">Web design</p>
-              </a>
-            </li>
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-                  <img src="./assets/images/project-3.png" alt="fundo" loading="lazy">
-                </figure>
-                <h3 class="project-title">Sistem Admin</h3>
-                <p class="project-category">Web design</p>
-              </a>
-            </li>
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
-                </figure>
-                <h3 class="project-title">Brawlhalla</h3>
-                <p class="project-category">Applications</p>
-              </a>
-            </li>
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
-                </figure>
-                <h3 class="project-title">DSM.</h3>
-                <p class="project-category">Web design</p>
-              </a>
-            </li>
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
-                </figure>
-                <h3 class="project-title">MetaSpark</h3>
-                <p class="project-category">Web design</p>
-              </a>
-            </li>
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
-                </figure>
-                <h3 class="project-title">Summary</h3>
-                <p class="project-category">Web development</p>
-              </a>
-            </li>
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
-                </figure>
-                <h3 class="project-title">Task Manager</h3>
-                <p class="project-category">Applications</p>
-              </a>
-            </li>
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
-                </figure>
-                <h3 class="project-title">Arrival</h3>
-                <p class="project-category">Web development</p>
-              </a>
-            </li>
-          </ul>
-        </section>
-      </article>
+            <div class="nav-controls">
+                <button class="theme-toggle" id="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="hamburger" id="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </nav>
 
-      <!--- #BLOG-->
-      <article class="blog" data-page="blog">
-        <header>
-          <h2 class="h2 article-title">Blog</h2>
-        </header>
-        <section class="blog-posts">
-          <ul class="blog-posts-list">
-            <li class="blog-post-item">
-              <a href="#">
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
-                </figure>
-                <div class="blog-content">
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-                    <span class="dot"></span>
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
-                  <p class="blog-text">
-                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
-                  </p>
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="home-container">
+            <div class="home-content">
+                <div class="home-text">
+                    <div class="greeting">Halo, Saya</div>
+                    <h1 class="home-title">
+                        <span class="name">Ari Cakra Kurniawan</span>
+                        <span class="title">Developer & Mahasiswa</span>
+                    </h1>
+                    <p class="home-description">
+                        Seorang mahasiswa Teknik Informatika yang passion di dunia development. 
+                        Saya senang belajar teknologi baru dan membuat solusi kreatif.
+                    </p>
+                    <div class="home-buttons">
+                        <a href="#portfolio" class="btn btn-primary">Lihat Portofolio</a>
+                        <a href="#contact" class="btn btn-secondary">Hubungi Saya</a>
+                    </div>
+                    <div class="social-links-horizontal">
+                        <a href="https://github.com/arckra" class="social-link" aria-label="GitHub" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/ari-cakra-kurniawan-93227a187?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="social-link" aria-label="LinkedIn" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://www.instagram.com/ackraa._?igsh=MWp1dmlzdGpubGFwcg==" class="social-link" aria-label="Instagram" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.tiktok.com/@whopays_?_r=1&_t=ZS-93DmnTPX1OB" class="social-link" aria-label="Tiktok" title="Tiktok">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                        <a href="https://wa.me/6282121463232" class="social-link" aria-label="WhatsApp" title="WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
                 </div>
-              </a>
-            </li>
-            <li class="blog-post-item">
-              <a href="#">
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
-                </figure>
-                <div class="blog-content">
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-                    <span class="dot"></span>
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
-                  <p class="blog-text">
-                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
-                  </p>
+                <div class="home-image">
+                    <div class="image-wrapper">
+                        <img src="/image/Anime.jpg" alt="Profile" class="profile-img">
+                        <div class="image-decoration"></div>
+                    </div>
                 </div>
-              </a>
-            </li>
-            <li class="blog-post-item">
-              <a href="#">
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
-                </figure>
+            </div>
+        </div>
+    </section>
 
-                <div class="blog-content">
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-                    <span class="dot"></span>
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-                  <h3 class="h3 blog-item-title">Design digest #80</h3>
-                  <p class="blog-text">
-                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
-                  </p>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Tentang Saya</h2>
+                <p class="section-subtitle">Kenali saya lebih dekat</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3 class="about-title">Seorang Developer yang Suka Belajar</h3>
+                    <p class="about-description">
+                        Saya adalah mahasiswa Teknik Informatika yang memiliki passion besar dalam dunia development. 
+                        Saya percaya bahwa teknologi bisa mengubah dunia menjadi lebih baik.
+                    </p>
+                    <p class="about-description">
+                        Sejak awal kuliah, saya aktif mengikuti berbagai kegiatan coding bootcamp, hackathon, dan project kolaboratif. 
+                        Saya senang menantang diri sendiri untuk mempelajari teknologi baru dan menerapkannya dalam project nyata.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <h3>3+</h3>
+                            <p>Project Selesai</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>2+</h3>
+                            <p>Tahun Pengalaman</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>5+</h3>
+                            <p>Skill Teknologi</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="skills">
+                <h3 class="skills-title">Keahlian Saya</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <i class="fab fa-html5"></i>
+                        <span>HTML/CSS</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-js"></i>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-python"></i>
+                        <span>Python</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-react"></i>
+                        <span>React</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-database"></i>
+                        <span>Database</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-git-alt"></i>
+                        <span>Git</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Resume</h2>
+                <p class="section-subtitle">Perjalanan pendidikan dan pengalaman saya</p>
+            </div>
+            <div class="resume-content">
+                <div class="resume-column">
+                    <h3 class="resume-subtitle">
+                        <i class="fas fa-graduation-cap"></i>
+                        Pendidikan
+                    </h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-date">2020 - Sekarang</div>
+                            <div class="timeline-content">
+                                <h4>S1 Teknik Informatika</h4>
+                                <p>Universitas [Nama Universitas]</p>
+                                <span>IPK: 3.8/4.0</span>
+                                <p class="timeline-description">
+                                    Fokus pada software engineering dan web development. Aktif dalam berbagai kegiatan akademik dan organisasi.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">2017 - 2020</div>
+                            <div class="timeline-content">
+                                <h4>SMA [Nama Sekolah]</h4>
+                                <p>Jurusan IPA</p>
+                                <span>Nilai Ujian: 90+</span>
+                                <p class="timeline-description">
+                                    Mengikuti ekstrakurikuler programming dan menjadi juara olimpiade sains tingkat kabupaten.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="resume-column">
+                    <h3 class="resume-subtitle">
+                        <i class="fas fa-briefcase"></i>
+                        Pengalaman
+                    </h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-date">2023</div>
+                            <div class="timeline-content">
+                                <h4>Web Developer Intern</h4>
+                                <p>[Nama Perusahaan/Startup]</p>
+                                <span>6 bulan</span>
+                                <p class="timeline-description">
+                                    Mengembangkan aplikasi web menggunakan React dan Node.js. Mengerjakan fitur CRUD dan integrasi API.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">2022 - Sekarang</div>
+                            <div class="timeline-content">
+                                <h4>Freelance Developer</h4>
+                                <p>Various Projects</p>
+                                <span>Part-time</span>
+                                <p class="timeline-description">
+                                    Mengerjakan project website untuk UMKM, toko online, dan aplikasi manajemen sederhana.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">2021</div>
+                            <div class="timeline-content">
+                                <h4>Teaching Assistant</h4>
+                                <p>Universitas [Nama]</p>
+                                <span>1 semester</span>
+                                <p class="timeline-description">
+                                    Membantu dosen dalam mengajar programming dasar dan algoritma untuk mahasiswa semester 1.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skills Section -->
+            <div class="resume-skills">
+                <h3 class="resume-subtitle">
+                    <i class="fas fa-cogs"></i>
+                    Keahlian Teknis
+                </h3>
+                <div class="skills-category">
+                    <div class="skill-category">
+                        <h4>Frontend Development</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">HTML5</span>
+                            <span class="skill-tag">CSS3</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Vue.js</span>
+                            <span class="skill-tag">Bootstrap</span>
+                            <span class="skill-tag">Tailwind CSS</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Backend Development</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Express.js</span>
+                            <span class="skill-tag">Django</span>
+                            <span class="skill-tag">REST API</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Database & Tools</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">MySQL</span>
+                            <span class="skill-tag">MongoDB</span>
+                            <span class="skill-tag">PostgreSQL</span>
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">Docker</span>
+                            <span class="skill-tag">AWS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Portofolio</h2>
+                <p class="section-subtitle">Project yang telah saya kerjakan</p>
+            </div>
+            
+            <!-- Portfolio Filter -->
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">Semua</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+                <button class="filter-btn" data-filter="mobile">Mobile App</button>
+                <button class="filter-btn" data-filter="design">UI/UX Design</button>
+            </div>
+
+            <div class="portfolio-grid">
+                <!-- Project 1: E-Commerce Platform -->
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-image">
+                        <img src="/image/makanan-jawa-barat.png" alt="E-Commerce Platform">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <div class="portfolio-tech">
+                                    <span class="tech-tag">React</span>
+                                    <span class="tech-tag">Node.js</span>
+                                    <span class="tech-tag">MongoDB</span>
+                                    <span class="tech-tag">Stripe API</span>
+                                </div>
+                                <div class="portfolio-links">
+                                    <a href="https://website-resep-jawa-barat.vercel.app/" class="portfolio-link" title="Live Demo">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                    <a href="https://github.com/arckra/website-resep-jawa-barat.git" class="portfolio-link" title="Source Code">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Platform Makanan Khas Jawa Barat</h3>
+                        <p>Platform Yang Menjelaskan Tentang Resep Makanan Khas Jawa Barat Dengan Berbagai Macam Resep Menu nya</p>
+                    </div>
                 </div>
 
-              </a>
-            </li>
-            <li class="blog-post-item">
-              <a href="#">
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
-                </figure>
-                <div class="blog-content">
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-                    <span class="dot"></span>
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
-                  <p class="blog-text">
-                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
-                  </p>
+                <!-- Project 2: Data Analytics Dashboard -->
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-image">
+                        <img src="/image/projek-sistem.png" alt="Analytics Dashboard">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <div class="portfolio-tech">
+                                    <span class="tech-tag">Python</span>
+                                    <span class="tech-tag">Django</span>
+                                    <span class="tech-tag">Chart.js</span>
+                                    <span class="tech-tag">PostgreSQL</span>
+                                </div>
+                                <div class="portfolio-links">
+                                    <a href="#" class="portfolio-link" title="Live Demo">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                    <a href="https://github.com/arckra/Lab12Web_search-pagination.git" class="portfolio-link" title="Source Code">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Dashboard Admin Penjualan Barang</h3>
+                        <p>Visualisasi data bisnis</p>
+                    </div>
                 </div>
-              </a>
-            </li>
 
-            <li class="blog-post-item">
-              <a href="#">
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
-                </figure>
-                <div class="blog-content">
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-                    <span class="dot"></span>
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
-                  <p class="blog-text">
-                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  </p>
+                <!-- Project 3: Mobile Task Manager -->
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-image">
+                        <img src="/image/projek-admin-penjualan.png" alt="Task Manager App">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <div class="portfolio-tech">
+                                    <span class="tech-tag">React Native</span>
+                                    <span class="tech-tag">Firebase</span>
+                                    <span class="tech-tag">Redux</span>
+                                    <span class="tech-tag">Push Notification</span>
+                                </div>
+                                <div class="portfolio-links">
+                                    <a href="https://makanan.fwh.is/?i=1" class="portfolio-link" title="Live Demo">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                    <a href="https://github.com/paypay04/uas_pemrograman_web_1.git" class="portfolio-link" title="Source Code">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Admin Penjualan Makanan</h3>
+                        <p>Manajemen tugas mobile</p>
+                    </div>
                 </div>
-              </a>
-            </li>
-            <li class="blog-post-item">
-              <a href="#">
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
-                </figure>
-                <div class="blog-content">
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-                    <span class="dot"></span>
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-                  <h3 class="h3 blog-item-title">Design digest #79</h3>
-                  <p class="blog-text">
-                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
-                  </p>
+
+                <!-- Project 4: Portfolio Website -->
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf0d?w=400&h=250&fit=crop" alt="Portfolio Website">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <div class="portfolio-tech">
+                                    <span class="tech-tag">HTML5</span>
+                                    <span class="tech-tag">CSS3</span>
+                                    <span class="tech-tag">JavaScript</span>
+                                    <span class="tech-tag">GSAP</span>
+                                </div>
+                                <div class="portfolio-links">
+                                    <a href="home.html" class="portfolio-link" title="Live Demo">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                    <a href="#" class="portfolio-link" title="Source Code">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Portfolio Website</h3>
+                        <p>Website portofolio pribadi</p>
+                    </div>
                 </div>
-              </a>
-            </li>
-          </ul>
-        </section>
-      </article>
+
+                <!-- Project 5: Weather App -->
+                <div class="portfolio-item" data-category="mobile">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=400&h=250&fit=crop" alt="Weather App">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <div class="portfolio-tech">
+                                    <span class="tech-tag">Flutter</span>
+                                    <span class="tech-tag">Weather API</span>
+                                    <span class="tech-tag">Google Maps</span>
+                                    <span class="tech-tag">Local Storage</span>
+                                </div>
+                                <div class="portfolio-links">
+                                    <a href="#" class="portfolio-link" title="Live Demo">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                    <a href="#" class="portfolio-link" title="Source Code">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Weather App</h3>
+                        <p>Prediksi cuaca real-time</p>
+                    </div>
+                </div>
+
+                <!-- Project 6: UI/UX Design -->
+                <div class="portfolio-item" data-category="design">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=400&h=250&fit=crop" alt="UI/UX Design">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <div class="portfolio-tech">
+                                    <span class="tech-tag">Figma</span>
+                                    <span class="tech-tag">User Research</span>
+                                    <span class="tech-tag">Prototyping</span>
+                                    <span class="tech-tag">Usability Testing</span>
+                                </div>
+                                <div class="portfolio-links">
+                                    <a href="#" class="portfolio-link" title="Design Case Study">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                    <a href="#" class="portfolio-link" title="Figma File">
+                                        <i class="fab fa-figma"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Mobile Banking Design</h3>
+                        <p>Redesign UI/UX</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Testimoni</h2>
+                <p class="section-subtitle">Apa yang orang katakan tentang saya</p>
+            </div>
+            <div class="testimonials-container">
+                <div class="testimonial-item active">
+                    <div class="testimonial-content">
+                        <div class="testimonial-text">
+                            <i class="fas fa-quote-left"></i>
+                            <p>"Saya sangat terkesan dengan dedikasi dan kemampuan problem-solving yang dimiliki. Selalu memberikan hasil yang melebihi ekspektasi."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=60&h=60&fit=crop&crop=face" alt="Author 1" class="author-img">
+                            <div class="author-info">
+                                <h4>Bapak Dosen</h4>
+                                <p>Dosen Teknik Informatika</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <div class="testimonial-text">
+                            <i class="fas fa-quote-left"></i>
+                            <p>"Tim yang sangat andal dan kreatif. Mampu bekerja dengan baik baik secara individu maupun tim. Sangat direkomendasikan!"</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=60&h=60&fit=crop&crop=face" alt="Author 2" class="author-img">
+                            <div class="author-info">
+                                <h4>Ibu Mentor</h4>
+                                <p>Mentor Project</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-nav">
+                    <button class="nav-dot active" data-slide="0"></button>
+                    <button class="nav-dot" data-slide="1"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Kontak Saya</h2>
+                <p class="section-subtitle">Mari berdiskusi tentang project Anda</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3 class="contact-title">Hubungi Saya</h3>
+                    <p class="contact-description">
+                        Saya selalu tertarik untuk mendiskusikan project baru dan kolaborasi. 
+                        Jangan ragu untuk menghubungi saya melalui salah satu channel di bawah ini.
+                    </p>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>aricakrakurniawan06@gmail.com</p>
+                            <a href="mailto:aricakrakurniawan06@gmail.com" class="contact-link">Kirim Email →</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Telepon</h4>
+                            <p>+62 821-2146-3232</p>
+                            <a href="tel:+6282121463232" class="contact-link">Telepon Sekarang →</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Lokasi</h4>
+                            <p>Bekasi, Indonesia</p>
+                            <a href="#" class="contact-link">Lihat di Maps →</a>
+                        </div>
+                    </div>
+
+                    <!-- Social Media Links -->
+                    <div class="contact-social">
+                        <h4>Ikuti Saya</h4>
+                        <div class="social-links-horizontal">
+                            <a href="https://github.com/arckra" class="social-link" aria-label="GitHub" title="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/ari-cakra-kurniawan-93227a187?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="social-link" aria-label="LinkedIn" title="LinkedIn">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://www.instagram.com/ackraa._?igsh=MWp1dmlzdGpubGFwcg==" class="social-link" aria-label="Instagram" title="Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://www.tiktok.com/@whopays_?_r=1&_t=ZS-93DmnTPX1OB" class="social-link" aria-label="Tiktok" title="Tiktok">
+                                <i class="fab fa-tiktok"></i>
+                            </a>
+                            <a href="https://wa.me/6282121463232" class="social-link" aria-label="WhatsApp" title="WhatsApp">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Response Time Info -->
+                    <div class="response-time">
+                        <i class="fas fa-clock"></i>
+                        <span>Response time: 1-2 hari kerja</span>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h3 class="contact-title">Kirim Pesan</h3>
+                    <form id="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Nama Lengkap</label>
+                                <input type="text" id="name" name="name" placeholder="Masukkan nama Anda" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="Masukkan email Anda" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">Nomor Telepon (Opsional)</label>
+                                <input type="tel" id="phone" name="phone" placeholder="Masukkan nomor telepon">
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subjek</label>
+                                <input type="text" id="subject" name="subject" placeholder="Tentang apa pesan ini?" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Pesan</label>
+                            <textarea id="message" name="message" placeholder="Ceritakan tentang project atau pertanyaan Anda..." rows="6" required></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="checkbox-container">
+                                <input type="checkbox" id="consent" name="consent" required>
+                                <span class="checkmark"></span>
+                                Saya setuju untuk dihubungi melalui informasi yang saya berikan di atas.
+                            </label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <i class="fas fa-paper-plane"></i>
+                            Kirim Pesan
+                        </button>
+                    </form>
+                    
+                    <!-- Form Success Message -->
+                    <div class="form-success" id="form-success">
+                        <i class="fas fa-check-circle"></i>
+                        <h4>Pesan Terkirim!</h4>
+                        <p>Terima kasih telah menghubungi saya. Saya akan merespon pesan Anda dalam 1-2 hari kerja.</p>
+                        <button class="btn btn-secondary" onclick="resetForm()">Kirim Pesan Lain</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Footer Portofolio -->
+<footer class="footer">
+    <div class="container footer-main">
+        <!-- Tentang Saya (kiri) -->
+        <div class="footer-about">
+            <h3>Tentang Saya</h3>
+            <p>Saya Ari, pengembang web & desainer UI/UX yang fokus menciptakan solusi digital elegan dan fungsional. Portfolio ini menampilkan hasil karya terbaik saya.</p>
+        </div>
+
+        <!-- Kontak / Sosial Media (kanan) -->
+        <div class="footer-contact">
+            <h3>Ikuti Saya</h3>
+            <div class="social-links-horizontal">
+                <a href="https://github.com/arckra" class="social-link" aria-label="GitHub" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/ari-cakra-kurniawan-93227a187" class="social-link" aria-label="LinkedIn" title="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://www.instagram.com/ackraa._" class="social-link" aria-label="Instagram" title="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.tiktok.com/@whopays_" class="social-link" aria-label="TikTok" title="TikTok">
+                    <i class="fab fa-tiktok"></i>
+                </a>
+                <a href="https://wa.me/6282121463232" class="social-link" aria-label="WhatsApp" title="WhatsApp">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </div>
+        </div>
     </div>
-  </main>
 
-  <footer>
-    <div class="footer-left">
-      © 2025 Made with Material Tailwind by Creative Tim. Distributed by ThemeWagon
+    <div class="footer-bottom">
+        <p>&copy; 2024 Ari. Semua hak dilindungi. Portfolio ini dibuat untuk menampilkan keahlian profesional saya.</p>
     </div>
-    <div class="footer-right">
-      <a href="#">About</a>
-      <a href="#">Resume</a>
-      <a href="#">Portfolio</a>
-      <a href="#">Blog</a>
-      <a href="#" class="kontak-btn">Contact Us</a>
-    </div>
-  </footer>
+</footer>
 
-  <!--- custom js link-->
-  <script src="./assets/js/script.js"></script>
-  <!--- ionicon link-->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script src="js/main.js"></script>
 </body>
-
 </html>
